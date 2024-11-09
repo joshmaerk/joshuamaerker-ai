@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MyFontsWebfontsKit';
+  src: url('/fonts/MyFontsWebfontsKit.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-primary bg-white;
+  }
+
+  h1 {
+    @apply text-h1 font-bold;
+  }
+
+  h2 {
+    @apply text-h2 font-bold;
+  }
+
+  h3 {
+    @apply text-h3 font-semibold;
+  }
+
+  h4 {
+    @apply text-h4 font-semibold;
+  }
+}
+
+@layer components {
+  .btn-section {
+    @apply px-6 py-3 text-cta font-medium text-white 
+           transition-colors duration-300 rounded-md;
+    background-color: var(--btn-color, #64C2B7);
+  }
+  
+  .btn-section:hover {
+    --btn-color-lighter: color-mix(in srgb, var(--btn-color, #64C2B7) 70%, white);
+    background-color: var(--btn-color-lighter);
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
