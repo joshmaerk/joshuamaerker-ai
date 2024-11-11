@@ -48,7 +48,7 @@ import {
           </div>
           
           <div class="mt-8 text-center">
-            <a href="#contact" class="inline-block bg-secondary text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors">
+            <a href="#contact" class="btn-section inline-block bg-secondary text-white px-8 py-3 rounded-md transition-colors">
               Mehr über Change Management erfahren
             </a>
           </div>

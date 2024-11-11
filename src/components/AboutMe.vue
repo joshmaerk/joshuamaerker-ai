@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { UserIcon } from '@heroicons/vue/24/outline'
 </script>
 
 <template>
@@ -17,7 +16,7 @@ import { UserIcon } from '@heroicons/vue/24/outline'
       <div class="mt-16 bg-white rounded-lg shadow-lg p-8">
         <div class="flex flex-col md:flex-row gap-8 items-center">
           <div class="w-48 h-48 rounded-full bg-gray-100 flex items-center justify-center flex-shrink-0">
-            <UserIcon class="w-24 h-24 text-gray-400" />
+            <img src="../assets/joshuamaerker.png" alt="Joshua Maerker" class="w-48 h-48 rounded-full object-cover">
           </div>
           <div class="flex-1">
             <h3 class="text-2xl font-bold text-primary mb-4">Joshua Maerker</h3>

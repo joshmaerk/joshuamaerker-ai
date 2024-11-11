@@ -18,7 +18,7 @@
           <p class="text-gray-600 mb-8">
             Entwicklung einer KI-Strategie, die exakt auf Ihr Unternehmen abgestimmt ist und maximale Rentabilität bietet. Als verlässlicher Partner begleite ich Sie auf dem gesamten Weg zur KI-Integration in Ihrem Unternehmen.
           </p>
-          <a href="#contact" class="inline-block bg-secondary text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors">
+          <a href="#contact" class="btn-section inline-block bg-secondary text-white px-8 py-3 rounded-md transition-colors">
             Strategie-Check vereinbaren
           </a>
         </div>

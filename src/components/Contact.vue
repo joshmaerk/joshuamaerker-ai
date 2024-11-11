@@ -63,7 +63,7 @@ const handleSubmit = async (e: Event) => {
               id="name" 
               v-model="formData.name" 
               required
-              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary input-height input-padding"
             >
           </div>
 
@@ -74,7 +74,7 @@ const handleSubmit = async (e: Event) => {
               id="email" 
               v-model="formData.email" 
               required
-              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary iinput-height input-padding"
             >
           </div>
 
@@ -84,7 +84,7 @@ const handleSubmit = async (e: Event) => {
               type="text" 
               id="company" 
               v-model="formData.company"
-              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary input-height input-padding"
             >
           </div>
 
@@ -95,7 +95,7 @@ const handleSubmit = async (e: Event) => {
               v-model="formData.message" 
               rows="4" 
               required
-              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary"
+              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary input-padding"
               placeholder="Beschreiben Sie kurz Ihr Projekt oder Ihre Anfrage..."
             ></textarea>
           </div>
@@ -108,7 +108,7 @@ const handleSubmit = async (e: Event) => {
             <button 
               type="submit" 
               :disabled="isSubmitting"
-              class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-secondary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary disabled:opacity-50 disabled:cursor-not-allowed"
+              class="btn-section w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <span v-if="isSubmitting">Wird gesendet...</span>
               <span v-else>Nachricht senden</span>

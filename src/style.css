@@ -54,4 +54,16 @@
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
+
+  
+  .input-padding {
+    padding-top: 0.5rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+  }
+
+  .input-height{
+    height: calc(1.5 * var(--input-height, 1.5rem)); 
+  }
 }
