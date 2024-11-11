@@ -31,8 +31,8 @@ const isHomePage = computed(() => route.path === '/')
       <div class="flex justify-between h-20">
         <div class="flex items-center">
           <button @click="navigateTo('/')" class="flex items-center space-x-3">
-            <img src="/logo.png" alt="Joshua Maerker Logo" class="h-12 w-auto" />
-            <span class="text-xl font-bold text-primary">Joshua Maerker</span>
+            <img src="../assets/Logo.svg" alt="Joshua Maerker Logo" class="h-12 w-auto" />
+           <!-- <span class="text-xl font-bold text-primary">Joshua Maerker</span>  --->
           </button>
         </div>
         

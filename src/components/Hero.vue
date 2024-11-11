@@ -14,7 +14,7 @@ import { ArrowRightIcon } from '@heroicons/vue/24/outline'
     <div class="relative z-10 container-custom">
       <div class="text-center max-w-4xl mx-auto">
         <div class="mb-12">
-          <img src="/logo.png" alt="Joshua Maerker Logo" class="h-32 w-auto mx-auto" />
+          <img src="../assets/Logo.svg" alt="Joshua Maerker Logo" class="h-32 w-auto mx-auto" />
         </div>
         <h1 class="mb-6">
           <span class="block">KI-Potenziale entfalten:</span>

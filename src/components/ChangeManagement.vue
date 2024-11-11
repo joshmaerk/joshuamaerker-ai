@@ -3,9 +3,7 @@ import {
   UserGroupIcon,
   AcademicCapIcon,
   ArrowPathIcon,
-  ShieldExclamationIcon,
-  DocumentCheckIcon,
-  UserIcon
+  ShieldExclamationIcon
 } from '@heroicons/vue/24/outline'
 </script>
 
